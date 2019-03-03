@@ -1,10 +1,10 @@
 def alphabetize(arr)
-ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
     arr.sort_by do |i|
 #puts i
     i.split("").select do |j|
 # puts j
-ALPHABET.index(j)
+alph.index(j)
 
     end
     end
